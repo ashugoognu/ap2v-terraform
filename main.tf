@@ -18,7 +18,7 @@ EOF
 }
 
 resource "aws_security_group" "instance" {
-	name = "${var.sec_name}"
+	name = "${var.sec_name}-version2"
 
 	ingress {
 		from_port = 80
